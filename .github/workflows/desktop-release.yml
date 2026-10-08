@@ -37,15 +37,7 @@ jobs:
           PLATFORM: ${{ matrix.platform }}
         run: |
           python -m zipfile -t "desktop/dist/VisionInspect-${{ matrix.platform }}-review.zip"
-          python - <<'PY'
-          import hashlib
-          import os
-          from pathlib import Path
-          archive = Path("desktop/dist") / f"VisionInspect-{os.environ['PLATFORM']}-review.zip"
-          digest = hashlib.sha256(archive.read_bytes()).hexdigest()
-          archive.with_suffix(".zip.sha256").write_text(f"{digest}  {archive.name}\n", encoding="utf-8")
-          print(f"SHA256 {digest}")
-          PY
+          python -c "import hashlib, os; from pathlib import Path; archive = Path('desktop/dist') / ('VisionInspect-' + os.environ['PLATFORM'] + '-review.zip'); digest = hashlib.sha256(archive.read_bytes()).hexdigest(); archive.with_suffix('.zip.sha256').write_text(digest + '  ' + archive.name + '\\n', encoding='utf-8'); print('SHA256 ' + digest)"
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
