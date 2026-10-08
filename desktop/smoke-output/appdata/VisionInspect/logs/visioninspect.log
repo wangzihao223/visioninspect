@@ -1,0 +1,5 @@
+2026-09-28 16:53:33 | WARNING | storage.config_manager | 加载 config.json 失败: [Errno 2] No such file or directory: 'E:\\work\\模型评估\\desktop\\smoke-output\\appdata\\VisionInspect\\config\\config.json'，使用默认配置
+2026-09-28 16:53:33 | WARNING | storage.config_manager | 加载 classes.json 失败: [Errno 2] No such file or directory: 'E:\\work\\模型评估\\desktop\\smoke-output\\appdata\\VisionInspect\\config\\classes.json'，使用默认配置
+2026-09-28 16:53:33 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 16:53:33 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-28 16:53:34 | INFO    | storage.excel_export | Excel 报告已导出: E:\work\模型评估\desktop\smoke-output\模型评估报告.xlsx

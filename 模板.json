@@ -1,0 +1,178 @@
+{
+    "version": "5.3.1",
+
+    "flags": {},
+
+
+    "imagePath": "cam01.jpg",
+
+    "imageData": null,
+
+    "imageHeight": 3000,
+
+    "imageWidth": 5000,
+
+
+    "project_info": {
+
+        "project_name": "汽车座椅视觉检测",
+
+        "part_id": "Seat_00001",
+
+        "camera_id": "cam01",
+
+        "capture_time": "2026-08-08 10:20:30"
+
+    },
+
+
+    "model_info": {
+
+        "model_name": "seat_defect_yolo",
+
+        "model_type": "YOLO",
+
+        "model_version": "v8.3",
+
+        "model_file": "best.pt",
+
+        "infer_time": "2026-08-08 10:25:00"
+
+    },
+
+
+    "review_info": {
+
+        "review_status": "finished",
+
+        "review_user": "admin",
+
+        "review_time": "2026-08-08 11:00:00"
+
+    },
+
+
+    "shapes": [
+
+        {
+
+            "label": "线头",
+
+            "score": 0.86,
+
+
+            "points": [
+
+                [
+                    1200,
+                    800
+                ],
+
+                [
+                    1400,
+                    950
+                ]
+
+            ],
+
+
+            "group_id": 1,
+
+
+            "shape_type": "rectangle",
+
+
+            "flags": {},
+
+
+            "source": "model",
+
+
+            "model_class_id": 0,
+
+
+            "review_type": "unreview",
+
+
+            "review_class": "线头",
+
+
+            "defect_id": "DEF_000001"
+
+        },
+
+
+        {
+
+            "label": "脏污",
+
+            "score": 0.92,
+
+
+            "points": [
+
+                [
+                    2000,
+                    1000
+                ],
+
+                [
+                    2200,
+                    1200
+                ]
+
+            ],
+
+
+            "group_id": 2,
+
+
+            "shape_type": "rectangle",
+
+
+            "flags": {},
+
+
+            "source": "human",
+
+
+            "model_class_id": null,
+
+
+            "review_type": "false_positive",
+
+
+            "review_class": "脏污",
+
+
+            "defect_id": null
+
+        }
+
+    ],
+
+
+
+    "evaluation_info": {
+
+
+        "image_result": {
+
+            "status": "defect",
+
+            "review_finished": true
+
+        },
+
+
+        "part_result": {
+
+            "status": "unknown",
+
+            "related_defects": []
+
+        }
+
+    }
+
+}

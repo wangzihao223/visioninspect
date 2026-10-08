@@ -1,0 +1,86 @@
+{
+    "version": "5.3.1",
+    "flags": {},
+    "imagePath": "cam03.jpg",
+    "imageData": null,
+    "imageHeight": 400,
+    "imageWidth": 600,
+    "project_info": {
+        "project_name": "",
+        "part_id": "Seat_00001",
+        "camera_id": "",
+        "capture_time": ""
+    },
+    "model_info": {
+        "model_name": "",
+        "model_type": "YOLO",
+        "model_version": "",
+        "model_file": "",
+        "infer_time": ""
+    },
+    "review_info": {
+        "review_status": "has_defect",
+        "review_user": "admin",
+        "review_time": "2026-08-08 22:48:13"
+    },
+    "shapes": [
+        {
+            "id": "ANN_000005",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    183.75733855185908,
+                    155.57729941291583
+                ],
+                [
+                    255.96868884540115,
+                    251.85909980430526
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": null
+        },
+        {
+            "id": "ANN_000009",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    384.1379310344828,
+                    141.3793103448276
+                ],
+                [
+                    455.86206896551727,
+                    229.6551724137931
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": "DEF_20260808223832"
+        }
+    ],
+    "evaluation_info": {
+        "image_result": {
+            "status": "unknown",
+            "review_finished": true
+        },
+        "part_result": {
+            "status": "unknown",
+            "related_defects": [
+                "DEF_20260808223832"
+            ]
+        }
+    }
+}

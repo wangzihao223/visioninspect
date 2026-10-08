@@ -1,0 +1,4 @@
+# Ultralytics/Torch 当前不一定提供 Python 3.14 wheel。
+# 推荐使用 Python 3.12 或 3.13 的独立虚拟环境安装本文件。
+ultralytics>=8.1.0
+torch>=2.1.0

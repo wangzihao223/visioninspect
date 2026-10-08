@@ -1,0 +1,109 @@
+{
+    "version": "5.3.1",
+    "flags": {},
+    "imagePath": "cam02.jpg",
+    "imageData": null,
+    "imageHeight": 400,
+    "imageWidth": 600,
+    "project_info": {
+        "project_name": "",
+        "part_id": "Seat_00001",
+        "camera_id": "",
+        "capture_time": ""
+    },
+    "model_info": {
+        "model_name": "",
+        "model_type": "YOLO",
+        "model_version": "",
+        "model_file": "",
+        "infer_time": ""
+    },
+    "review_info": {
+        "review_status": "partial",
+        "review_user": "admin",
+        "review_time": "2026-08-08 22:47:54"
+    },
+    "shapes": [
+        {
+            "id": "ANN_000003",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    217.2211350293542,
+                    191.38943248532289
+                ],
+                [
+                    305.87084148727985,
+                    251.85909980430526
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": "DEF_20260808223832"
+        },
+        {
+            "id": "ANN_000004",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    332.4137931034483,
+                    124.13793103448276
+                ],
+                [
+                    405.51724137931035,
+                    217.93103448275863
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "unreview",
+            "review_class": "线头",
+            "defect_id": null
+        },
+        {
+            "id": "ANN_000008",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    75.86206896551725,
+                    98.62068965517243
+                ],
+                [
+                    177.24137931034483,
+                    184.82758620689657
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": "DEF_20260808223832"
+        }
+    ],
+    "evaluation_info": {
+        "image_result": {
+            "status": "unknown",
+            "review_finished": false
+        },
+        "part_result": {
+            "status": "unknown",
+            "related_defects": [
+                "DEF_20260808223832"
+            ]
+        }
+    }
+}

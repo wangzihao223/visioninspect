@@ -1,0 +1,37 @@
+{
+    "app": {
+        "app_name": "VisionInspect",
+        "app_version": "V2.0",
+        "language": "zh_CN"
+    },
+    "window": {
+        "width": 1440,
+        "height": 900
+    },
+    "review": {
+        "default_user": "admin",
+        "auto_save": true
+    },
+    "paths": {
+        "last_project": "/home/zihao/work/模型评估/VisionInspect/examples",
+        "last_model": "D:/ai/train/models/q5-best-v38.pt"
+    },
+    "thumbnail": {
+        "size": 160,
+        "spacing": 8
+    },
+    "inference": {
+        "confidence_threshold": 0.25,
+        "iou_threshold": 0.45,
+        "device": "auto",
+        "batch_size": 1
+    },
+    "excel": {
+        "report_name": "模型评估报告.xlsx"
+    },
+    "ui": {
+        "left_width": 240.0,
+        "right_width": 320.0,
+        "thumbnail_height": 146.0
+    }
+}

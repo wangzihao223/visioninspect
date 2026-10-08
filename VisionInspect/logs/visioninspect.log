@@ -1,0 +1,200 @@
+2026-08-14 09:25:03 | INFO    | VisionInspect | VisionInspect 启动
+2026-08-14 09:25:11 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-08-14 09:25:11 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-08-14 15:26:44 | INFO    | ui.main_window | 程序退出
+2026-08-14 15:26:44 | INFO    | VisionInspect | VisionInspect 退出，退出码: 0
+2026-08-27 15:12:15 | INFO    | VisionInspect | VisionInspect 启动
+2026-08-27 15:12:23 | INFO    | core.project_manager | 扫描完成: 0 个零件
+2026-08-27 15:12:23 | INFO    | core.project_manager | 项目已打开: 1_before_1280_segments（0 个零件）
+2026-08-27 15:12:33 | INFO    | core.project_manager | 扫描完成: 0 个零件
+2026-08-27 15:12:33 | INFO    | core.project_manager | 项目已打开: test（0 个零件）
+2026-08-27 15:12:40 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-08-27 15:12:40 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-08-27 15:14:35 | INFO    | ui.main_window | 程序退出
+2026-08-27 15:14:35 | INFO    | VisionInspect | VisionInspect 退出，退出码: 0
+2026-09-01 08:41:53 | INFO    | VisionInspect | VisionInspect 启动
+2026-09-01 08:42:01 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-01 08:42:01 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-01 08:47:09 | INFO    | ui.main_window | 程序退出
+2026-09-01 08:47:09 | INFO    | VisionInspect | VisionInspect 退出，退出码: 0
+2026-09-01 08:47:11 | INFO    | VisionInspect | VisionInspect 启动
+2026-09-01 08:47:16 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-01 08:47:16 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-01 08:48:00 | INFO    | ui.main_window | 程序退出
+2026-09-01 08:48:00 | INFO    | VisionInspect | VisionInspect 退出，退出码: 0
+2026-09-01 09:06:05 | INFO    | VisionInspect | VisionInspect 启动
+2026-09-01 09:22:02 | INFO    | ui.main_window | 程序退出
+2026-09-01 09:22:02 | INFO    | VisionInspect | VisionInspect 退出，退出码: 0
+2026-09-28 10:33:35 | ERROR   | imgui_app | 打开项目失败
+Traceback (most recent call last):
+  File "E:\work\模型评估\VisionInspect\imgui_app.py", line 77, in open_project
+    project = self.project_manager.open_project(self.project_path.strip())
+  File "E:\work\模型评估\VisionInspect\core\project_manager.py", line 49, in open_project
+    raise ValueError(f"无效的数据目录: {path}")
+ValueError: 无效的数据目录: C:/Users/shang/Desktop/设计/VisionInspect/examples
+2026-09-28 10:40:53 | ERROR   | imgui_app | 打开项目失败
+Traceback (most recent call last):
+  File "E:\work\模型评估\VisionInspect\imgui_app.py", line 78, in open_project
+    project = self.project_manager.open_project(self.project_path.strip())
+  File "E:\work\模型评估\VisionInspect\core\project_manager.py", line 49, in open_project
+    raise ValueError(f"无效的数据目录: {path}")
+ValueError: 无效的数据目录: 
+2026-09-28 10:40:55 | ERROR   | imgui_app | 打开项目失败
+Traceback (most recent call last):
+  File "E:\work\模型评估\VisionInspect\imgui_app.py", line 78, in open_project
+    project = self.project_manager.open_project(self.project_path.strip())
+  File "E:\work\模型评估\VisionInspect\core\project_manager.py", line 49, in open_project
+    raise ValueError(f"无效的数据目录: {path}")
+ValueError: 无效的数据目录: 
+2026-09-28 11:14:09 | ERROR   | imgui_app | 打开项目失败
+Traceback (most recent call last):
+  File "E:\work\模型评估\VisionInspect\imgui_app.py", line 104, in open_project
+    project = self.project_manager.open_project(self.project_path.strip())
+  File "E:\work\模型评估\VisionInspect\core\project_manager.py", line 49, in open_project
+    raise ValueError(f"无效的数据目录: {path}")
+ValueError: 无效的数据目录: 
+2026-09-28 11:14:11 | ERROR   | imgui_app | 打开项目失败
+Traceback (most recent call last):
+  File "E:\work\模型评估\VisionInspect\imgui_app.py", line 104, in open_project
+    project = self.project_manager.open_project(self.project_path.strip())
+  File "E:\work\模型评估\VisionInspect\core\project_manager.py", line 49, in open_project
+    raise ValueError(f"无效的数据目录: {path}")
+ValueError: 无效的数据目录: 
+2026-09-28 11:14:11 | ERROR   | imgui_app | 打开项目失败
+Traceback (most recent call last):
+  File "E:\work\模型评估\VisionInspect\imgui_app.py", line 104, in open_project
+    project = self.project_manager.open_project(self.project_path.strip())
+  File "E:\work\模型评估\VisionInspect\core\project_manager.py", line 49, in open_project
+    raise ValueError(f"无效的数据目录: {path}")
+ValueError: 无效的数据目录: 
+2026-09-28 13:58:25 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 13:58:25 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-28 13:59:15 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 13:59:15 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-28 14:00:30 | INFO    | core.project_manager | 扫描完成: 0 个零件
+2026-09-28 14:00:30 | INFO    | core.project_manager | 项目已打开: 合成缺陷-xt（0 个零件）
+2026-09-28 14:01:23 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 14:01:23 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-28 14:15:14 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:15:14 | INFO    | core.project_manager | 项目已打开: 项目测试（2 个零件）
+2026-09-28 14:15:14 | INFO    | core.project_manager | 扫描完成: 0 个零件
+2026-09-28 14:15:14 | INFO    | core.project_manager | 项目已打开: empty（0 个零件）
+2026-09-28 14:15:14 | INFO    | ui.main_window | 程序退出
+2026-09-28 14:16:01 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:16:01 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-28 14:16:02 | INFO    | ui.main_window | 程序退出
+2026-09-28 14:16:35 | INFO    | ui.main_window | 程序退出
+2026-09-28 14:19:19 | INFO    | core.project_manager | 扫描完成: 0 个零件
+2026-09-28 14:19:19 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060003（0 个零件）
+2026-09-28 14:19:27 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 14:19:27 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-28 14:21:13 | INFO    | ui.main_window | 程序退出
+2026-09-28 14:24:20 | INFO    | core.project_manager | 扫描完成: 0 个零件
+2026-09-28 14:24:20 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060003（0 个零件）
+2026-09-28 14:24:27 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 14:24:27 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-28 14:29:13 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:29:13 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-28 14:31:14 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:31:14 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-28 14:32:22 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:32:22 | INFO    | core.project_manager | 项目已打开: 模型评估（2 个零件）
+2026-09-28 14:32:23 | INFO    | core.project_manager | 扫描完成: 0 个零件
+2026-09-28 14:32:23 | INFO    | core.project_manager | 项目已打开: empty（0 个零件）
+2026-09-28 14:33:06 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:33:06 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-28 14:35:23 | INFO    | ui.main_window | 程序退出
+2026-09-28 14:35:45 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 14:35:45 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-28 14:44:30 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:44:30 | INFO    | core.project_manager | 项目已打开: project（2 个零件）
+2026-09-28 14:44:30 | ERROR   | storage.json_reader | 写入 JSON 失败 [C:\Users\DELL\AppData\Local\Temp\tmpd7pjnstu\project\Seat_00001\cam01.json]: simulated read-only
+2026-09-28 14:44:30 | ERROR   | imgui_app | 审核操作失败
+Traceback (most recent call last):
+  File "E:\work\模型评估\VisionInspect\imgui_app.py", line 179, in _apply_action
+    operation()
+    ~~~~~~~~~^^
+  File "E:\work\模型评估\VisionInspect\imgui_app.py", line 233, in <lambda>
+    self._apply_action(lambda: self.actions.review(self.image, ids, review_type), f"已保存 {len(ids)} 个检测框：{review_type.display_name}")
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\work\模型评估\VisionInspect\core\review_actions.py", line 59, in review
+    self._edit([image], operation)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\work\模型评估\VisionInspect\core\review_actions.py", line 46, in _edit
+    raise OSError("以下图片保存失败，失败项保留原数据：\n" + "\n".join(failures))
+OSError: 以下图片保存失败，失败项保留原数据：
+C:\Users\DELL\AppData\Local\Temp\tmpd7pjnstu\project\Seat_00001\cam01.json
+2026-09-28 14:44:30 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:44:30 | INFO    | core.project_manager | 项目已打开: project（2 个零件）
+2026-09-28 14:44:30 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:44:30 | INFO    | core.project_manager | 项目已打开: project（2 个零件）
+2026-09-28 14:44:30 | INFO    | storage.excel_export | Excel 报告已导出: C:\Users\DELL\AppData\Local\Temp\tmpd7pjnstu\project\模型评估报告.xlsx
+2026-09-28 14:45:56 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:45:56 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 14:49:00 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:49:00 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 14:49:22 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 14:49:22 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-28 14:52:40 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:52:40 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 14:55:42 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:55:42 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 14:56:48 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:56:48 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 14:58:03 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:58:03 | INFO    | core.project_manager | 项目已打开: project（2 个零件）
+2026-09-28 14:58:03 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 14:58:03 | INFO    | core.project_manager | 项目已打开: project（2 个零件）
+2026-09-28 14:58:03 | ERROR   | models.yolo_engine | 推理失败 [C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00001\cam01.jpg]: 无法保存推理结果: C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00001\cam01.json
+2026-09-28 14:58:03 | ERROR   | models.yolo_engine | 推理失败 [C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00001\cam02.jpg]: 无法保存推理结果: C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00001\cam02.json
+2026-09-28 14:58:03 | ERROR   | models.yolo_engine | 推理失败 [C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00001\cam03.jpg]: 无法保存推理结果: C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00001\cam03.json
+2026-09-28 14:58:03 | ERROR   | models.yolo_engine | 推理失败 [C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00002\cam01.jpg]: 无法保存推理结果: C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00002\cam01.json
+2026-09-28 14:58:03 | ERROR   | models.yolo_engine | 推理失败 [C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00002\cam02.jpg]: 无法保存推理结果: C:\Users\DELL\AppData\Local\Temp\tmpdj760bdr\project\Seat_00002\cam02.json
+2026-09-28 14:58:03 | INFO    | models.yolo_engine | 批量推理完成: 处理 0 张，跳过 0 张，失败 5 张
+2026-09-28 14:58:03 | INFO    | models.yolo_engine | 批量推理完成: 处理 0 张，跳过 5 张，失败 0 张
+2026-09-28 14:59:39 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 14:59:39 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-28 15:09:58 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 15:09:58 | INFO    | core.project_manager | 项目已打开: project（2 个零件）
+2026-09-28 15:10:44 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 15:10:44 | INFO    | core.project_manager | 项目已打开: project（2 个零件）
+2026-09-28 15:13:14 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 15:13:14 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 15:13:45 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 15:13:45 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 15:14:02 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 15:14:02 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-28 15:14:44 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 15:14:44 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 15:16:10 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 15:16:10 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 15:38:50 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 15:38:50 | INFO    | core.project_manager | 项目已打开: original（2 个零件）
+2026-09-28 15:38:50 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 15:38:50 | INFO    | core.project_manager | 项目已打开: original（2 个零件）
+2026-09-28 17:06:04 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 17:06:04 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-28 17:08:50 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 17:08:50 | INFO    | core.project_manager | 项目已打开: first（2 个零件）
+2026-09-28 17:08:50 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 17:08:50 | INFO    | core.project_manager | 项目已打开: second（2 个零件）
+2026-09-28 17:08:50 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 17:08:50 | INFO    | core.project_manager | 项目已打开: first（2 个零件）
+2026-09-28 17:08:50 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 17:08:50 | INFO    | core.project_manager | 项目已打开: first（2 个零件）
+2026-09-28 17:08:50 | INFO    | core.project_manager | 扫描完成: 1 个零件
+2026-09-28 17:08:50 | INFO    | core.project_manager | 项目已打开: flat（1 个零件）
+2026-09-28 17:09:20 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 17:09:20 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 17:09:23 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-28 17:09:23 | INFO    | core.project_manager | 项目已打开: review-project（2 个零件）
+2026-09-28 17:14:02 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 17:14:02 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-28 17:15:48 | INFO    | core.project_manager | 扫描完成: 3 个零件
+2026-09-28 17:15:48 | INFO    | core.project_manager | 项目已打开: 7000100XNY03AM4208_2608060002（3 个零件）
+2026-09-29 18:03:32 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-29 18:03:32 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-30 16:11:39 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-30 16:11:39 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）
+2026-09-30 16:33:46 | INFO    | core.project_manager | 扫描完成: 2 个零件
+2026-09-30 16:33:46 | INFO    | core.project_manager | 项目已打开: examples（2 个零件）

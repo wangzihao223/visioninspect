@@ -1,0 +1,95 @@
+146 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.7
+146 INFO: Python: 3.14.5
+175 INFO: Platform: Windows-11-10.0.26200-SP0
+176 INFO: Python environment: E:\work\模型评估\.venv
+176 INFO: wrote E:\work\模型评估\desktop\VisionInspect.spec
+179 INFO: Removing temporary files and cleaning cache in C:\Users\DELL\AppData\Local\pyinstaller
+414 INFO: Module search paths (PYTHONPATH):
+['E:\\work\\模型评估',
+ 'C:\\Users\\DELL\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.zip',
+ 'C:\\Users\\DELL\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs',
+ 'C:\\Users\\DELL\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib',
+ 'C:\\Users\\DELL\\AppData\\Local\\Python\\pythoncore-3.14-64',
+ 'E:\\work\\模型评估\\.venv',
+ 'E:\\work\\模型评估\\.venv\\Lib\\site-packages',
+ 'E:\\work\\模型评估\\desktop',
+ 'E:\\work\\模型评估\\VisionInspect']
+817 INFO: Appending 'binaries' from .spec
+817 INFO: Appending 'datas' from .spec
+823 INFO: checking Analysis
+823 INFO: Building Analysis because Analysis-00.toc is non existent
+823 INFO: Looking for Python shared library...
+823 INFO: Using Python shared library: C:\Users\DELL\AppData\Local\Python\pythoncore-3.14-64\python314.dll
+823 INFO: Running Analysis Analysis-00.toc
+823 INFO: Target bytecode optimization level: 0
+824 INFO: Initializing module dependency graph...
+825 INFO: Initializing module graph hook caches...
+838 INFO: Analyzing modules for base_library.zip ...
+2502 INFO: Processing standard module hook 'hook-encodings.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3004 INFO: Processing standard module hook 'hook-pickle.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3263 INFO: Processing standard module hook 'hook-math.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3425 INFO: Processing standard module hook 'hook-difflib.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3439 INFO: Processing standard module hook 'hook-heapq.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6204 INFO: Caching module dependency graph...
+6236 INFO: Analyzing E:\work\模型评估\desktop\entry.py
+6602 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6710 INFO: Processing standard module hook 'hook-xml.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7021 INFO: Processing standard module hook 'hook-sysconfig.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7026 INFO: Processing standard module hook 'hook-_ctypes.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7615 INFO: Processing standard module hook 'hook-numpy.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7981 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+7983 INFO: SetuptoolsInfo: initializing cached setuptools info...
+9003 INFO: Processing standard module hook 'hook-platform.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9351 INFO: Processing standard module hook 'hook-webbrowser.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11094 INFO: Processing standard module hook 'hook-psutil.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11544 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11974 INFO: Processing standard module hook 'hook-PIL.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12122 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12533 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12766 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+13620 INFO: Processing standard module hook 'hook-openpyxl.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14729 INFO: Processing module hooks (post-graph stage)...
+15095 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15217 INFO: Performing binary vs. data reclassification (222 entries)
+15237 INFO: Looking for ctypes DLLs
+15281 INFO: Analyzing run-time hooks ...
+15284 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+15287 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+15289 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'E:\\work\\模型评估\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+15304 INFO: Creating base_library.zip...
+15323 INFO: Looking for dynamic libraries
+16210 INFO: Extra DLL search directories (AddDllDirectory): ['E:\\work\\模型评估\\.venv\\Lib\\site-packages\\numpy.libs']
+16211 INFO: Extra DLL search directories (PATH): []
+16913 INFO: Warnings written to E:\work\模型评估\desktop\build\VisionInspect\warn-VisionInspect.txt
+16972 INFO: Graph cross-reference written to E:\work\模型评估\desktop\build\VisionInspect\xref-VisionInspect.html
+17011 INFO: checking PYZ
+17011 INFO: Building PYZ because PYZ-00.toc is non existent
+17011 INFO: Building PYZ (ZlibArchive) E:\work\模型评估\desktop\build\VisionInspect\PYZ-00.pyz
+17381 INFO: Building PYZ (ZlibArchive) E:\work\模型评估\desktop\build\VisionInspect\PYZ-00.pyz completed successfully.
+17395 INFO: checking PKG
+17395 INFO: Building PKG because PKG-00.toc is non existent
+17395 INFO: Building PKG (CArchive) VisionInspect.pkg
+17417 INFO: Building PKG (CArchive) VisionInspect.pkg completed successfully.
+17418 INFO: Bootloader E:\work\模型评估\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+17418 INFO: checking EXE
+17418 INFO: Building EXE because EXE-00.toc is non existent
+17418 INFO: Building EXE from EXE-00.toc
+17418 INFO: Copying bootloader EXE to E:\work\模型评估\desktop\build\VisionInspect\VisionInspect.exe
+17484 INFO: Copying icon to EXE
+17556 INFO: Copying 0 resources to EXE
+17557 INFO: Embedding manifest in EXE
+17630 INFO: Appending PKG archive to EXE
+17718 INFO: Fixing EXE headers
+17974 INFO: Building EXE from EXE-00.toc completed successfully.
+17978 INFO: checking COLLECT
+17978 INFO: Building COLLECT because COLLECT-00.toc is non existent
+17979 INFO: Removing dir E:\work\模型评估\desktop\dist\VisionInspect
+18023 INFO: Building COLLECT COLLECT-00.toc
+18837 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+18847 INFO: Build complete! The results are available in: E:\work\模型评估\desktop\dist
+{
+  "directory_bytes": 106209840,
+  "exe_bytes": 6625509,
+  "zip_bytes": 41209796,
+  "files": 338
+}

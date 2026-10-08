@@ -1,0 +1,216 @@
+{
+    "version": "5.3.1",
+    "flags": {},
+    "imagePath": "cam01.jpg",
+    "imageData": null,
+    "imageHeight": 400,
+    "imageWidth": 600,
+    "project_info": {
+        "project_name": "",
+        "part_id": "Seat_00002",
+        "camera_id": "",
+        "capture_time": ""
+    },
+    "model_info": {
+        "model_name": "",
+        "model_type": "YOLO",
+        "model_version": "",
+        "model_file": "",
+        "infer_time": ""
+    },
+    "review_info": {
+        "review_status": "has_defect",
+        "review_user": "admin",
+        "review_time": "2026-09-29 18:03:54"
+    },
+    "shapes": [
+        {
+            "id": "ANN_000006",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    194.3248532289628,
+                    129.15851272015655
+                ],
+                [
+                    245.40117416829744,
+                    207.82778864970643
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "wrong_class",
+            "review_class": "线头",
+            "defect_id": "DEF_20260808221449",
+            "defect_class": "",
+            "defect_description": ""
+        },
+        {
+            "id": "ANN_000010",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    312.60504201680675,
+                    120.16806722689076
+                ],
+                [
+                    397.47899159663865,
+                    222.6890756302521
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": "DEF_20260808225000",
+            "defect_class": "",
+            "defect_description": ""
+        },
+        {
+            "id": "ANN_000022",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    152.13270142180093,
+                    125.35545023696685
+                ],
+                [
+                    213.9810426540284,
+                    228.436018957346
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": null,
+            "defect_class": "",
+            "defect_description": ""
+        },
+        {
+            "id": "ANN_000023",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    31.279620853080566,
+                    194.3127962085308
+                ],
+                [
+                    131.5165876777251,
+                    247.63033175355451
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": null,
+            "defect_class": "",
+            "defect_description": ""
+        },
+        {
+            "id": "ANN_000024",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    58.29383886255924,
+                    191.46919431279622
+                ],
+                [
+                    76.77725118483411,
+                    206.39810426540285
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": null,
+            "defect_class": "",
+            "defect_description": ""
+        },
+        {
+            "id": "ANN_000025",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    62.55924170616113,
+                    205.68720379146922
+                ],
+                [
+                    94.54976303317535,
+                    224.1706161137441
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": null,
+            "defect_class": "",
+            "defect_description": ""
+        },
+        {
+            "id": "ANN_000026",
+            "label": "线头",
+            "score": 0.0,
+            "points": [
+                [
+                    75.35545023696682,
+                    212.08530805687207
+                ],
+                [
+                    89.5734597156398,
+                    220.61611374407585
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {},
+            "source": "human",
+            "model_class_id": null,
+            "review_type": "miss",
+            "review_class": "线头",
+            "defect_id": null,
+            "defect_class": "",
+            "defect_description": ""
+        }
+    ],
+    "evaluation_info": {
+        "image_result": {
+            "status": "unknown",
+            "review_finished": true
+        },
+        "part_result": {
+            "status": "unknown",
+            "related_defects": [
+                "DEF_20260808221449",
+                "DEF_20260808225000"
+            ]
+        }
+    }
+}

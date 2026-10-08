@@ -1,0 +1,76 @@
+{
+    "defect_classes": [
+        {
+            "name": "线头",
+            "code": "THREAD",
+            "enabled": true
+        },
+        {
+            "name": "脏污",
+            "code": "DIRT",
+            "enabled": true
+        },
+        {
+            "name": "褶皱",
+            "code": "WRINKLE",
+            "enabled": true
+        },
+        {
+            "name": "划伤",
+            "code": "SCRATCH",
+            "enabled": true
+        },
+        {
+            "name": "破损",
+            "code": "DAMAGE",
+            "enabled": true
+        },
+        {
+            "name": "缝线不良",
+            "code": "SEWING_DEFECT",
+            "enabled": true
+        },
+        {
+            "name": "压痕",
+            "code": "DENT",
+            "enabled": true
+        },
+        {
+            "name": "异物",
+            "code": "FOREIGN",
+            "enabled": true
+        }
+    ],
+    "review_types": [
+        {
+            "key": "correct",
+            "name": "正确",
+            "color": "#00CC00"
+        },
+        {
+            "key": "miss",
+            "name": "漏报",
+            "color": "#FFCC00"
+        },
+        {
+            "key": "wrong_class",
+            "name": "错报",
+            "color": "#0066FF"
+        },
+        {
+            "key": "false_positive",
+            "name": "误报",
+            "color": "#FF3333"
+        },
+        {
+            "key": "overkill",
+            "name": "过杀",
+            "color": "#AA00FF"
+        },
+        {
+            "key": "unreview",
+            "name": "未审核",
+            "color": "#999999"
+        }
+    ]
+}

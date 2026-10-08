@@ -1,0 +1,75 @@
+name: Desktop release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build (${{ matrix.platform }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            platform: linux
+          - os: windows-latest
+            platform: windows
+          - os: macos-latest
+            platform: macos
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install desktop build dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -r VisionInspect/requirements.txt pyinstaller
+      - name: Build desktop package
+        run: python desktop/build.py
+      - name: Check archive
+        env:
+          PLATFORM: ${{ matrix.platform }}
+        run: |
+          python -m zipfile -t "desktop/dist/VisionInspect-${{ matrix.platform }}-review.zip"
+          python - <<'PY'
+          import hashlib
+          import os
+          from pathlib import Path
+          archive = Path("desktop/dist") / f"VisionInspect-{os.environ['PLATFORM']}-review.zip"
+          digest = hashlib.sha256(archive.read_bytes()).hexdigest()
+          archive.with_suffix(".zip.sha256").write_text(f"{digest}  {archive.name}\n", encoding="utf-8")
+          print(f"SHA256 {digest}")
+          PY
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: desktop-release-${{ matrix.platform }}
+          path: |
+            desktop/dist/VisionInspect-${{ matrix.platform }}-review.zip
+            desktop/dist/VisionInspect-${{ matrix.platform }}-review.zip.sha256
+            desktop/dist/sizes.json
+          if-no-files-found: error
+          retention-days: 14
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: desktop-release-*
+          merge-multiple: true
+          path: release-assets
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            release-assets/*.zip
+            release-assets/*.zip.sha256
+          generate_release_notes: true

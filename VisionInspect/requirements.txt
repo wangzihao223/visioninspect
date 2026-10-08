@@ -1,0 +1,10 @@
+imgui_bundle>=1.92.900,<2
+Pillow>=10.0.0
+opencv-python>=4.8.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+
+# YOLO 推理依赖请在 Python 3.12/3.13 环境中另行安装：
+#   python -m pip install -r requirements-ml.txt
